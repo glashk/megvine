@@ -1,0 +1,23 @@
+ul {
+    position: absolute;
+    top: 0;
+    margin: unset;
+    padding: unset;
+  
+    height: 100vh;
+    background-color: #283044;
+}
+
+.side-logo {
+    text-align: center;
+    color: rgb(233, 233, 233);
+    font-size: 26px;
+    font-weight: 700;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+
+.side-menu-icon {
+    padding: 0 6px 0 5px;
+}

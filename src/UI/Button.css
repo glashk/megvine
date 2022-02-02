@@ -1,0 +1,22 @@
+.costum-button{
+    all: unset;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(230, 230, 230);
+    color: rgb(14, 14, 14);
+    margin: 5px;
+}
+.costum-button:focus{
+    background-color:#a93f55 ;
+    color: rgb(241, 239, 239);
+
+}
+
+.costum-button:hover{
+    background-color:#a93f55 ;
+    color: rgb(241, 239, 239);
+}
+.btn-text{
+    padding-bottom: 2px;
+
+}

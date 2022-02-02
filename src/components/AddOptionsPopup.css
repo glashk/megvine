@@ -1,0 +1,28 @@
+.option-popap-container {
+    margin-top: 200px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 10px;
+
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    z-index: 3;
+    box-shadow: 
+   5px 5px 10px #0000006e, 
+  -5px -5px 10px #0000006e;
+}
+
+.option-popap-container span {
+    text-align: left;
+    color: black;
+    padding: 5px;
+    margin: 5px 0 5px 0;
+}
+
+.option-popap-container span:hover {
+    background-color: rgb(187, 187, 187);
+    transition: 0.1s;
+}

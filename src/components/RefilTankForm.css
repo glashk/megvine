@@ -1,0 +1,22 @@
+.reffil-box{
+    width: 140%;
+}
+
+.datePicker input{
+    
+    all: unset;
+    border: 1px solid rgb(179, 179, 179);
+    width: 299px;
+    border-radius: 4px;
+    margin: 30px 0 20px 0;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.refil-form{
+    margin-top: 40px;
+    display: flex;
+    width: 100%;
+   
+   
+}

@@ -1,0 +1,40 @@
+.spinner-wrapper{
+    position: fixed;
+
+    width: 100%;
+  
+    top: 55%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 55;
+    animation: spinner 0.9s  infinite;
+
+}
+.spinner {
+    padding-bottom: 300px;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+  }
+  .spinner:after {
+    content: ' ';
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid rgb(133, 133, 133);
+    border-color:#a93f55 transparent #48a9a6 transparent;
+    animation: spinner 0.4s linear infinite;
+  }
+  @keyframes spinner {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

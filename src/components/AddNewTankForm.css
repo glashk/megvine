@@ -1,0 +1,17 @@
+.new-tank-form{
+  display: flex;
+  flex-direction: column;  
+  justify-content: space-around;
+  margin: 0 30px 0  10px;
+  padding: 10px;
+}
+.new-tank-form label {
+    padding: 5px 0 8px 0;
+}
+.new-tank-form input {
+    padding: 5px 0 8px 5px;
+    margin: 0 0 5px 0;
+}
+.new-tank-form-wrap{
+    width: 350px;
+}
